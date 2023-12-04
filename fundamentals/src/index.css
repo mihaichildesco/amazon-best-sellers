@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f5f8;
+}
+
+.booklist {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.book {
+  text-align: center;
+}
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.65rem;
+  font-size: 1rem;
+  background-color: #c35600;
+  border-top-left-radius: 0.3rem;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 4rem;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) {
+  .booklist {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
